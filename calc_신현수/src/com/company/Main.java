@@ -12,8 +12,8 @@ public class Main {
 
         if(A>B)
             System.out.println(">");
-        else if(A<B)
-            System.out.println("<");
+        else if(A==B)
+            System.out.println("=");
         else
             System.out.println("==");
     }
